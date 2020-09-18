@@ -113,7 +113,7 @@ Home Start
     object-fit: cover;
 }
 
-#sec-home .carousel-item h5, #sec-home .carousel-item p {
+#sec-home .carousel-item h1, #sec-home .carousel-item p {
     color: var(--white);
 }
 
@@ -326,10 +326,29 @@ Service Start
     box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.2);
 }
 
+.front p {
+    margin-bottom: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.front .info {
+    float: right;
+    font-size: 20px;
+    color: var(--themeColor);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .1);
+}
+
 .right {
     border-radius: 0 3px 34px 0;
     transform: rotateY(90deg) translateZ(160px);
     box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.27);
+}
+
+.right p {
+    height: 100%;
+    overflow-y: auto;
 }
 
 /**
@@ -365,10 +384,10 @@ Team End
     margin-bottom: 140px;
 }
 
-.team-card {
+.emp-card {
     position: relative;
     margin-bottom: 80px;
-    padding: 80px 20px 30px;
+    padding: 80px 20px 20px;
     background-color: var(--white);
     border-radius: 6px;
     box-shadow: 2px 2px 4px rgba(148, 146, 245, 0.15);
@@ -377,12 +396,12 @@ Team End
     transition: all ease .4s;
 }
 
-.team-card:hover {
+.emp-card:hover {
     box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.27);
     transition: all ease .4s;
 }
 
-.team-card .display-img {
+.emp-card .emp-img {
     padding: 4px;
     position: absolute;
     top: 0;
@@ -395,18 +414,47 @@ Team End
     border-radius: 50%;
 }
 
-.team-card .display-img img {
+.emp-card .emp-img img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
 }
 
-.person-details {
+.emp-card p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 15px;
+}
+
+.emp-card .info-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--white);
+    color: var(--themeColor);
+    font-size: 12px;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: 1px solid var(--themeColor);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .05);
+    transition: all ease .4s;
+}
+
+.emp-card:hover .info-icon {
+    background-color: var(--themeColor);
+    color: var(--white);
+    transition: all ease .4s;
+}
+
+.emp-details {
     padding: 10px;
 }
 
-.person-details .display-img {
+.emp-details .emp-img {
     shape-outside: circle(50%);
     margin: 0px 20px 20px;
     padding: 4px;
@@ -420,7 +468,7 @@ Team End
     position: relative;
 }
 
-.person-details .display-img img {
+.emp-details .emp-img img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -428,14 +476,19 @@ Team End
     border-radius: 50%;
 }
 
-.person-details h5, .person-details h6 {
+.emp-details h5, .emp-details h6 {
     text-align: right;
 }
 
-.person-details h6 {
+.emp-details h6 {
     border-bottom: 3px solid var(--borderColor);
     padding-bottom: 15px;
     margin-bottom: 15px;
+}
+
+.emp-details p {
+    height: 50vh;
+    overflow-y: auto;
 }
 
 /**

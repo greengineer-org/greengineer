@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="icon" type="image/gif" href="/assets/images/logo/logo.jpg" />
+
     <!-- Google Fonts Family Start -->
 
     <link
@@ -55,27 +57,13 @@
                 <a class="navbar-brand" href="#home">
                     <img src="assets/images/logo/logo.jpg" alt="Greengineers Logo">
                 </a>
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <i class="fas fa-bars"></i>
                 </button>
+
                 <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#sec-home"><i class="fas fa-home"></i> Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#sec-about"><i class="fas fa-paper-plane"></i> About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#sec-services"><i class="fas fa-layer-group"></i> Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#sec-team"><i class="fas fa-users"></i> Team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#sec-contact"><i class="fas fa-comments"></i>Contact</a>
-                        </li>
-                    </ul>
+                    <ul class="navbar-nav" rel="js-nav-items"></ul>
                 </div>
             </nav>
         </div>
@@ -84,34 +72,10 @@
     <div class="frame">
         <section class="" id="sec-home">
             <div id="homeSlides" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#homeSlides" data-slide-to="0" class="active"></li>
-                    <li data-target="#homeSlides" data-slide-to="1"></li>
-                    <li data-target="#homeSlides" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="home-slide-img" src="./assets/images/wall4.jpg" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Slide One</h5>
-                            <p>Slide One Details</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="home-slide-img" src="./assets/images/wall4.jpg" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Slide Two</h5>
-                            <p>Slide Two Details</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="home-slide-img" src="./assets/images/wall4.jpg" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Slide Three</h5>
-                            <p>Slide Three Details</p>
-                        </div>
-                    </div>
-                </div>
+                <ol class="carousel-indicators" rel="js-home-slides-Indicators"></ol>
+
+                <div class="carousel-inner" rel="js-home-slides"></div>
+
                 <a class="carousel-control-prev" href="#homeSlides" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 </a>
@@ -138,134 +102,16 @@
             <div class="parallax"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                        <div class="about-card">
-                            <i class="fas fa-lightbulb icon"></i>
-                            <h5>Why us ?</h5>
-                            <p>Greengineer provides hassle free and timely project delivery with quality of
-                                international standards at best cost.
-                            </p>
-                        </div>
-
-                        <div class="about-card">
-                            <i class="fas fa-rocket icon"></i>
-                            <h5>Mission</h5>
-                            <p>We, the Greengineers are on a mission to help people build and manage their
-                                buildings
-                                competently and
-                                comfortably by engineering the architecture and building services using suitable
-                                engines which create a
-                                foundation for energy efficient, ecological, economical & safe building design,
-                                construction and management.
-                            </p>
-                        </div>
-
-                        <div class="about-card">
-                            <i class="fas fa-glasses icon"></i>
-                            <h5>Vision</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni animi, excepturi,
-                                quaerat alias minus exercitationem accusantium sit similique aperiam maxime
-                                nulla.
-                            </p>
-                        </div>
-                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" rel="js-about-cards"></div>
 
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="slide-detail-about">
                             <h5 class="text-center">REASONS TO CHOOSE US</h5>
                             <div id="about-slide-detail" class="carousel slide slide-detail section-silver-bg"
                                 data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#about-slide-detail" data-slide-to="0" class="active">
-                                        <i class="fas fa-rocket"></i>
-                                    </li>
-                                    <li data-target="#about-slide-detail" data-slide-to="1">
-                                        <i class="fas fa-rocket"></i>
-                                    </li>
-                                    <li data-target="#about-slide-detail" data-slide-to="2">
-                                        <i class="fas fa-rocket"></i>
-                                    </li>
-                                    <li data-target="#about-slide-detail" data-slide-to="3">
-                                        <i class="fas fa-rocket"></i>
-                                    </li>
-                                    <li data-target="#about-slide-detail" data-slide-to="4">
-                                        <i class="fas fa-rocket"></i>
-                                    </li>
-                                    <li data-target="#about-slide-detail" data-slide-to="5">
-                                        <i class="fas fa-rocket"></i>
-                                    </li>
-                                </ol>
+                                <ol class="carousel-indicators" rel="js-about-slides-Indicators"></ol>
 
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="slide-content">
-                                            <i class="fas fa-rocket"></i>
-                                            <h6>Heading</h6>
-                                            <p>
-                                                Our first priority is to solve the problem of the project
-                                                and
-                                                work towards fulfilling the needs and desires of the client.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <div class="slide-content">
-                                            <i class="fas fa-rocket"></i>
-                                            <h6>Heading</h6>
-                                            <p>
-                                                We are a team of green engineers and architects with
-                                                adequate
-                                                experience of handling national & international projects.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <div class="slide-content">
-                                            <i class="fas fa-rocket"></i>
-                                            <h6>Heading</h6>
-                                            <p>
-                                                We use our skill, knowledge & imagination to see how much
-                                                more
-                                                value we can give/ add for every ₹ spent.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <div class="slide-content">
-                                            <i class="fas fa-rocket"></i>
-                                            <h6>Heading</h6>
-                                            <p>
-                                                Guaranteed quality work on time.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <div class="slide-content">
-                                            <i class="fas fa-rocket"></i>
-                                            <h6>Heading</h6>
-                                            <p>
-                                                Detailed Presentation of accomplished work for full clarity
-                                                and
-                                                satisfaction of client.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <div class="slide-content">
-                                            <i class="fas fa-rocket"></i>
-                                            <h6>Heading</h6>
-                                            <p>
-                                                Streamlined process of document collection and client
-                                                coordination for smooth project delivery.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                                <div class="carousel-inner" rel="js-about-slides"></div>
                             </div>
                         </div>
                     </div>
@@ -285,146 +131,7 @@
                         cupiditate hic. Facilis vitae excepturi voluptates similique.</p>
                 </center>
 
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="service-card">
-                            <div class="front">
-                                <span class="icon">
-                                    <i class="fas fa-layer-group"></i>
-                                </span>
-                                <h6>Simulation</h6>
-                                <p>Building energy simulation & lighting analysis for design improvement & validation.
-                                </p>
-                            </div>
-
-                            <div class="right">
-                                <p>Building energy simulation & lighting analysis for design improvement & validation.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="service-card">
-                            <div class="front">
-                                <span class="icon">
-                                    <i class="fas fa-layer-group"></i>
-                                </span>
-                                <h6>Simulation</h6>
-                                <p>Building energy simulation & lighting analysis for design improvement & validation.
-                                </p>
-                            </div>
-                            <div class="right">
-                                <p>Building energy simulation & lighting analysis for design improvement & validation.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="service-card">
-                            <div class="front">
-                                <span class="icon">
-                                    <i class="fas fa-layer-group"></i>
-                                </span>
-                                <h6>Compliance modeling</h6>
-                                <p>Compliance modeling for ECBC, ASHRAE, LEED, IGBC, GRIHA, EC.</p>
-                            </div>
-                            <div class="right">
-                                <p>Compliance modeling for ECBC, ASHRAE, LEED, IGBC, GRIHA, EC.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="service-card">
-                            <div class="front">
-                                <span class="icon">
-                                    <i class="fas fa-layer-group"></i>
-                                </span>
-                                <h6>Service name</h6>
-                                <p>ASHRAE level 1, 2 & 3 energy audits, green audits & third party commissioning.</p>
-                            </div>
-                            <div class="right">
-                                <p>ASHRAE level 1, 2 & 3 energy audits, green audits & third party commissioning.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="service-card">
-                            <div class="front">
-                                <span class="icon">
-                                    <i class="fas fa-layer-group"></i>
-                                </span>
-                                <h6>Service name</h6>
-                                <p>Computational Fluid Dynamics (CFD analysis) and Fire Dynamics Simulation (FDS).</p>
-                            </div>
-                            <div class="right">
-                                <p>Computational Fluid Dynamics (CFD analysis) and Fire Dynamics Simulation (FDS).</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="service-card">
-                            <div class="front">
-                                <span class="icon">
-                                    <i class="fas fa-layer-group"></i>
-                                </span>
-                                <h6>Service name</h6>
-                                <p>Research & policy work.</p>
-                            </div>
-                            <div class="right">
-                                <p>Research & policy work.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="service-card">
-                            <div class="front">
-                                <span class="icon">
-                                    <i class="fas fa-layer-group"></i>
-                                </span>
-                                <h6>Service name</h6>
-                                <p>Tool development for different green compliances.</p>
-                            </div>
-                            <div class="right">
-                                <p>Tool development for different green compliances.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="service-card">
-                            <div class="front">
-                                <span class="icon">
-                                    <i class="fas fa-layer-group"></i>
-                                </span>
-                                <h6>Service name</h6>
-                                <p>Training of energy simulation & code compliances.</p>
-                            </div>
-                            <div class="right">
-                                <p>Training of energy simulation & code compliances.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="service-card">
-                            <div class="front">
-                                <span class="icon">
-                                    <i class="fas fa-layer-group"></i>
-                                </span>
-                                <h6>Service name</h6>
-                                <p>Green Building certification & compliance for different disciplines.</p>
-                            </div>
-                            <div class="right">
-                                <p>Green Building certification & compliance for different disciplines.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="row" rel="js-services"></div>
             </div>
         </section>
 
@@ -457,62 +164,7 @@
                         cupiditate hic. Facilis vitae excepturi voluptates similique.</p>
                 </center>
 
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="team-card" data-toggle="modal" data-target="#emp-detail">
-                            <div class="display-img">
-                                <img src="/assets/images/wall4.jpg" alt="...">
-                            </div>
-                            <h6>name</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quis nisi</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="team-card">
-                            <div class="display-img">
-                                <img src="..." alt="...">
-                            </div>
-                            <h6>name</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quis nisi</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="team-card">
-                            <div class="display-img">
-                                <img src="..." alt="...">
-                            </div>
-                            <h6>name</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quis nisi</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="team-card">
-                            <div class="display-img">
-                                <img src="..." alt="...">
-                            </div>
-                            <h6>name</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quis nisi</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="team-card">
-                            <div class="display-img">
-                                <img src="..." alt="...">
-                            </div>
-                            <h6>name</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quis nisi</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="team-card">
-                            <div class="display-img">
-                                <img src="..." alt="...">
-                            </div>
-                            <h6>name</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quis nisi</p>
-                        </div>
-                    </div>
-                </div>
+                <div class="row" rel="js-employs"></div>
             </div>
         </section>
 
@@ -603,25 +255,13 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div class="person-details">
-                        <div class="display-img">
-                            <img src="./assets/images/wall4.jpg">
-                        </div>
-                        <h5>Name</h5>
-                        <h6>designation</h6>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, consectetur
-                            nesciunt!
-                            Facere,
-                            iure cum asperiores dolorem expedita fuga ex dignissimos numquam consequatur
-                            eligendi
-                            corrupti
-                            assumenda? Voluptatum dignissimos labore sed illum?
-                        </p>
+                    <div class="emp-details" rel="js-emp-details">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="/js/app.js"></script>
 </body>
 
 </html>
