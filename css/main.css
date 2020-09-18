@@ -1,0 +1,615 @@
+/**
+Header Start
+**/
+
+.app-header {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.top-nav-bar .navbar-brand img {
+    height: 50px;
+    width: 300px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.top-nav-bar .navbar-nav .nav-item .nav-link {
+    position: relative;
+    color: var(--themeColor);
+    font-size: 15px;
+    font-weight: 700;
+    padding: 6px 15px;
+    transition: all ease .4s;
+}
+
+.top-nav-bar .navbar-nav .nav-item .nav-link i {
+    margin-right: 6px;
+}
+
+.top-nav-bar .navbar-nav .nav-item .nav-link:hover {
+    color: var(--themeColor);
+    transition: all ease .4s;
+}
+
+.top-nav-bar .navbar-nav .nav-item .nav-link:hover::before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 8px;
+    right: 8px;
+    border-bottom: 2px solid var(--themeColor);
+    transition: all ease .4s;
+}
+
+.top-nav-bar .navbar-toggler {
+    color: var(--themeColor);
+    font-size: 16px;
+}
+
+/**
+Header End
+**/
+
+/**
+Section Common Start
+**/
+
+.section {
+    position: relative;
+    padding: 100px 0px;
+}
+
+.section-silver-bg {
+    background-color: #f6f7fd;
+}
+
+.section-dark-bg {
+    background-color: #121212;
+}
+
+.section-header {
+    margin-bottom: 70px;
+}
+
+.section-header .section-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 55px;
+    width: 55px;
+    margin: 0 0 10px 0;
+    color: var(--textColor);
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all ease .4s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+section[id*=sec-]:hover .section-icon {
+    background-color: var(--themeColor);
+    color: var(--white);
+    border-color: var(--themeColor);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .25);
+    transform: scale(1.13);
+    transition: all ease .4s;
+}
+
+/**
+Section Common End
+**/
+
+/**
+Home Start
+**/
+
+.home-slide-img {
+    display: block;
+    width: 100%;
+    height: 70vh;
+    object-position: center;
+    object-fit: cover;
+}
+
+#sec-home .carousel-item h5, #sec-home .carousel-item p {
+    color: var(--white);
+}
+
+#sec-home .section-header {
+    margin: 0;
+    padding: 30px 0px 60px 0px;
+}
+
+/**
+Home End
+**/
+
+/**
+About Start
+**/
+
+.about-card {
+    margin-bottom: 30px;
+}
+
+.about-card p {
+    color: var(--textColor);
+}
+
+.about-card .icon {
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: var(--themeColor);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .1);
+}
+
+.slide-detail-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.slide-detail {
+    position: relative;
+    padding: 35px;
+    height: 300px;
+    width: 300px;
+    margin: 30px auto;
+}
+
+.slide-detail .carousel-inner, .slide-detail .carousel-item, .slide-detail .slide-content {
+    height: 100%;
+}
+
+.slide-detail .carousel-indicators {
+    top: 0;
+    margin: 0;
+    border: 6px solid var(--white);
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .1) inset;
+    z-index: 1;
+}
+
+.slide-detail .carousel-indicators li {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    color: var(--themeColor);
+    background-color: var(--white);
+    border: 2px solid var(--themeColor);
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: all ease .4s;
+}
+
+.slide-detail .carousel-indicators li:nth-child(1) {
+    top: 0px;
+    right: 50px;
+}
+
+.slide-detail .carousel-indicators li:nth-child(2) {
+    top: 122px;
+    right: -28px;
+}
+
+.slide-detail .carousel-indicators li:nth-child(3) {
+    bottom: 0px;
+    right: 50px;
+}
+
+.slide-detail .carousel-indicators li:nth-child(4) {
+    bottom: 0px;
+    left: 50px;
+}
+
+.slide-detail .carousel-indicators li:nth-child(5) {
+    top: 122px;
+    left: -28px;
+}
+
+.slide-detail .carousel-indicators li:nth-child(6) {
+    top: 0px;
+    left: 50px;
+}
+
+.slide-detail .carousel-indicators li:hover {
+    color: var(--white);
+    background-color: var(--themeColor);
+    transition: all ease .4s;
+}
+
+.slide-detail .carousel-indicators li i {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    text-indent: 0;
+}
+
+.slide-detail .carousel-indicators .active {
+    background-color: var(--themeColor);
+    color: var(--white);
+    transition: all ease .4s;
+    animation: blink 1.4s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        box-shadow: 0px 0px 10px rgba(40, 167, 69, .2);
+        transform: scale(1);
+    }
+    25% {
+        box-shadow: 0px 0px 10px rgba(40, 167, 69, .4);
+        transform: scale(1.1);
+    }
+    50% {
+        box-shadow: 0px 0px 10px rgba(40, 167, 69, .8);
+        transform: scale(1.2);
+    }
+    75% {
+        box-shadow: 0px 0px 10px rgba(40, 167, 69, .4);
+        transform: scale(1.1);
+    }
+    100% {
+        box-shadow: 0px 0px 10px rgba(40, 167, 69, .2);
+        transform: scale(1);
+    }
+}
+
+.slide-detail .slide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--white);
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, .1) inset;
+}
+
+.slide-detail .slide-content i {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: var(--textColor);
+}
+
+/**
+About End
+**/
+
+/**
+Service Start
+**/
+
+.service-card {
+    position: relative;
+    margin-bottom: 20px;
+    height: 300px;
+    background-color: var(--white);
+    transform-style: preserve-3d;
+    transform: translateZ(-140px);
+    transition: all ease .4s;
+}
+
+.service-card:hover {
+    transform: translateZ(-160px) rotateY( -90deg);
+    transition: all ease .4s;
+}
+
+.service-card .icon {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: var(--themeColor);
+    font-size: 35px;
+}
+
+.service-card>div {
+    position: absolute;
+    padding: 34px 21px;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    transition: all ease .4s;
+}
+
+.front {
+    border-radius: 34px 3px 0 0;
+    transform: rotateY(0deg) translateZ(160px);
+    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.2);
+}
+
+.right {
+    border-radius: 0 3px 34px 0;
+    transform: rotateY(90deg) translateZ(160px);
+    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.27);
+}
+
+/**
+Service End
+**/
+
+/**
+Certs Start
+**/
+
+.certs {
+    position: relative;
+}
+
+.certs-img {
+    display: block;
+    margin: 70px auto;
+    height: 120px;
+    width: 120px;
+    object-position: center;
+    object-fit: cover;
+}
+
+/**
+Certs End
+**/
+
+/**
+Team End
+**/
+
+#sec-team .section-header {
+    margin-bottom: 140px;
+}
+
+.team-card {
+    position: relative;
+    margin-bottom: 80px;
+    padding: 80px 20px 30px;
+    background-color: var(--white);
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(148, 146, 245, 0.15);
+    text-align: center;
+    cursor: pointer;
+    transition: all ease .4s;
+}
+
+.team-card:hover {
+    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.27);
+    transition: all ease .4s;
+}
+
+.team-card .display-img {
+    padding: 4px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 110px;
+    width: 110px;
+    background-color: var(--white);
+    border: 1px solid var(--borderColor);
+    border-radius: 50%;
+}
+
+.team-card .display-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.person-details {
+    padding: 10px;
+}
+
+.person-details .display-img {
+    shape-outside: circle(50%);
+    margin: 0px 20px 20px;
+    padding: 4px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: 3px solid var(--borderColor);
+    z-index: 1;
+    position: relative;
+}
+
+.person-details .display-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.person-details h5, .person-details h6 {
+    text-align: right;
+}
+
+.person-details h6 {
+    border-bottom: 3px solid var(--borderColor);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+/**
+Team End
+**/
+
+/**
+Contact Start
+**/
+
+#sec-contact {
+    text-align: center;
+}
+
+#sec-contact, #sec-contact .section-icon, #sec-contact p, #sec-contact h2, #sec-contact h5, #sec-contact h6 {
+    color: var(--white);
+}
+
+.contact-card {
+    margin-bottom: 20px;
+}
+
+.contact-card i {
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: var(--themeColor)
+}
+
+.contact-info {
+    position: relative;
+    margin: 80px 0px 0px;
+}
+
+.contact-info h6 {
+    margin-bottom: 20px;
+}
+
+.contact-info h6 i {
+    margin-right: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    display: inline-block;
+    margin-right: 10px;
+    color: var(--white);
+    font-size: 24px;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+.contact-info a:hover {
+    color: var(--themeColor);
+    transition: all .4s ease;
+}
+
+/**
+Contact End
+**/
+
+/**
+Parallax Start
+**/
+
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#sec-about .parallax {
+    background-image: url("/assets/images/background/mass-icons.png");
+}
+
+#cert .parallax {
+    background-image: url("/assets/images/background/certs.jpg");
+}
+
+#sec-contact .parallax {
+    background-image: url("/assets/images/background/map.jpg");
+}
+
+#cert .parallax::before, #sec-contact .parallax::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .76);
+}
+
+/**
+Parallax End
+**/
+
+/**
+Footer Start
+**/
+
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--footerBackground);
+    padding: 8px;
+    z-index: 10;
+}
+
+.footer p {
+    color: var(--footerTextColor);
+    font-size: 13px;
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+/**
+Footer End
+**/
+
+@media only screen and (min-width:992px) {
+    .about-card:last-of-type {
+        margin-bottom: 0;
+    }
+    .contact-card {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .contact-info p {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width:576px) {
+    .slide-detail {
+        padding: 45px;
+        height: 400px;
+        width: 400px;
+    }
+    .slide-detail .carousel-indicators li:nth-child(1) {
+        top: 20px;
+        right: 50px;
+    }
+    .slide-detail .carousel-indicators li:nth-child(2) {
+        top: 172px;
+        right: -28px;
+    }
+    .slide-detail .carousel-indicators li:nth-child(3) {
+        bottom: 20px;
+        right: 50px;
+    }
+    .slide-detail .carousel-indicators li:nth-child(4) {
+        bottom: 20px;
+        left: 50px;
+    }
+    .slide-detail .carousel-indicators li:nth-child(5) {
+        top: 172px;
+        left: -28px;
+    }
+    .slide-detail .carousel-indicators li:nth-child(6) {
+        top: 20px;
+        left: 50px;
+    }
+}
