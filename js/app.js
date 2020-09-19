@@ -380,7 +380,6 @@ var viewController = (function () {
                         newMarkup = newMarkup.replaceAll("%name%", val.name);
                         newMarkup = newMarkup.replace("%edu%", val.edu);
                         newMarkup = newMarkup.replace("%des%", val.des);
-                        console.log('val.des: ', val.des);
                         newMarkup = newMarkup.replace("%id%", val.id);
                         elements.employs.insertAdjacentHTML('beforeend', newMarkup);
                     });

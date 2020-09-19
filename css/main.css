@@ -8,6 +8,7 @@ Header Start
 }
 
 .top-nav-bar .navbar-brand img {
+    margin-left: -20px;
     height: 50px;
     width: 170px;
     object-fit: contain;
