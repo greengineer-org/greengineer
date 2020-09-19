@@ -116,37 +116,37 @@ var modelController = (function () {
                 new AboutSlide(
                     "Our priority",
                     "Our first priority is to <strong><em>solve the problem </em></strong> of the project and work towards fulfilling the needs and desires of the client.",
-                    "fas fa-rocket",
+                    "fas fa-clipboard-check",
                     true
                 ),
                 new AboutSlide(
                     "Our Expertise",
                     "We are a team of <strong><em> green engineers and architects </em></strong> with adequate experience of handling national &amp; international projects.",
-                    "fas fa-rocket",
+                    "fas fa-user-shield",
                     false
                 ),
                 new AboutSlide(
                     "Value for money",
                     "We use our skill, knowledge &amp; imagination to see <strong><em>how much more value</em></strong> we can give/ add for every ₹ spent.",
-                    "fas fa-rocket",
+                    "fas fa-hand-holding-usd",
                     false
                 ),
                 new AboutSlide(
                     "Work Quality",
                     "Guaranteed quality <strong><em>work on time</em></strong> at best cost.",
-                    "fas fa-rocket",
+                    "far fa-file-alt",
                     false
                 ),
                 new AboutSlide(
                     "Client satisfaction",
                     "Detailed Presentation of accomplished work for <strong><em>full clarity and satisfaction</em></strong> of client.",
-                    "fas fa-rocket",
+                    "fas fa-user-tie",
                     false
                 ),
                 new AboutSlide(
                     "Execution Process",
                     "Streamlined process of document collection and client coordination for <strong><em>hassle free project delivery.</strong>",
-                    "fas fa-rocket",
+                    "fas fa-cogs",
                     false
                 ),
             ];
