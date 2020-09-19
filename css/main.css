@@ -447,6 +447,7 @@ Team End
 }
 
 .emp-card .short-detail {
+    height: 35px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
