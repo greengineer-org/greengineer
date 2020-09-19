@@ -372,9 +372,16 @@ Certs Start
     display: block;
     margin: 70px auto;
     height: 120px;
-    width: 120px;
     object-position: center;
     object-fit: cover;
+}
+
+.certs-img.rectangle{
+    width: 240px;
+}
+
+.certs-img.square{
+    width: 120px;
 }
 
 /**

@@ -101,12 +101,12 @@ var modelController = (function () {
                 new AboutUs(
                     "fas fa-rocket",
                     "Mission",
-                    "We, the Greengineers are on a mission to help people build and manage their buildings competently and comfortably by engineering the architecture and building services using suitable engines which create a foundation for energy efficient,ecological,economical & safe building design,construction and management."
+                    "We, the <strong><em>Greengineers</em></strong> are on a mission to help people <strong><em> build and manage </em></strong> their buildings competently and comfortably by <strong><em> engineering the architecture </em></strong> and building services using suitable <strong><em>engines</em></strong> which create a foundation for <strong><em>energy efficient, ecological, economical &amp; safe</em></strong> building design, construction and management."
                 ),
                 new AboutUs(
                     "fas fa-glasses",
                     "Vision",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni animi, excepturi,quaerat alias minus exercitationem accusantium sit similique aperiam maxime nulla."
+                    "To <strong><em> engineer and run a system </em></strong> in which energy efficiency &amp; green compliance in buildings are creative, innovative, educative, economic and simplified."
                 ),
             ]
             return about;
@@ -114,38 +114,38 @@ var modelController = (function () {
         getAboutSlides: function () {
             var aboutSlides = [
                 new AboutSlide(
-                    "Heading",
-                    "Our first priority is to solve the problem of the project and work towards fulfilling the needs and desires of the client.",
+                    "Our priority",
+                    "Our first priority is to <strong><em>solve the problem </em></strong> of the project and work towards fulfilling the needs and desires of the client.",
                     "fas fa-rocket",
                     true
                 ),
                 new AboutSlide(
-                    "Heading",
-                    "We are a team of green engineers and architects with adequate experience of handling national & international projects.",
+                    "Our Expertise",
+                    "We are a team of <strong><em> green engineers and architects </em></strong> with adequate experience of handling national &amp; international projects.",
                     "fas fa-rocket",
                     false
                 ),
                 new AboutSlide(
-                    "Heading",
-                    "We use our skill, knowledge & imagination to see how much more value we can give/ add for every ₹ spent.",
+                    "Value for money",
+                    "We use our skill, knowledge &amp; imagination to see <strong><em>how much more value</em></strong> we can give/ add for every ₹ spent.",
                     "fas fa-rocket",
                     false
                 ),
                 new AboutSlide(
-                    "Heading",
-                    "Guaranteed quality work on time.",
+                    "Work Quality",
+                    "Guaranteed quality <strong><em>work on time</em></strong> at best cost.",
                     "fas fa-rocket",
                     false
                 ),
                 new AboutSlide(
-                    "Heading",
-                    "Detailed Presentation of accomplished work for full clarity and satisfaction of client.",
+                    "Client satisfaction",
+                    "Detailed Presentation of accomplished work for <strong><em>full clarity and satisfaction</em></strong> of client.",
                     "fas fa-rocket",
                     false
                 ),
                 new AboutSlide(
-                    "Heading",
-                    "Streamlined process of document collection and client coordination for smooth project delivery.",
+                    "Execution Process",
+                    "Streamlined process of document collection and client coordination for <strong><em>hassle free project delivery.</strong>",
                     "fas fa-rocket",
                     false
                 ),
