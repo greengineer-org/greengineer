@@ -4,12 +4,12 @@ Header Start
 
 .app-header {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, .7);
 }
 
 .top-nav-bar .navbar-brand img {
     height: 50px;
-    width: 300px;
+    width: 170px;
     object-fit: contain;
     object-position: center;
 }
@@ -17,6 +17,7 @@ Header Start
 .top-nav-bar .navbar-nav .nav-item .nav-link {
     position: relative;
     color: var(--themeColor);
+    text-shadow: 2px 2px 4px rgba(40, 167, 69, .1);
     font-size: 15px;
     font-weight: 700;
     padding: 6px 15px;
@@ -24,7 +25,7 @@ Header Start
 }
 
 .top-nav-bar .navbar-nav .nav-item .nav-link i {
-    margin-right: 6px;
+    margin-right: 10px;
 }
 
 .top-nav-bar .navbar-nav .nav-item .nav-link:hover {
@@ -105,6 +106,11 @@ Section Common End
 Home Start
 **/
 
+#sec-home .section-header {
+    margin: 0;
+    padding: 30px 0px 60px 0px;
+}
+
 .home-slide-img {
     display: block;
     width: 100%;
@@ -113,13 +119,12 @@ Home Start
     object-fit: cover;
 }
 
-#sec-home .carousel-item h1, #sec-home .carousel-item p {
+.home-slide-text {
+    background-color: rgba(0, 0, 0, .5);
     color: var(--white);
-}
-
-#sec-home .section-header {
-    margin: 0;
-    padding: 30px 0px 60px 0px;
+    padding: 20px 10px;
+    border-radius: 40px;
+    margin: 0px;
 }
 
 /**

@@ -54,38 +54,38 @@ var modelController = (function () {
             var homeSlides = [
                 new HomeSlide(
                     "green campus",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ad incidunt vel ducimus reiciendi minima provident hic, enim voluptatem aperiam dolorem voluptates voluptatibus illo suscipit vero amet ipsam eveniet sequi.",
-                    "1.jpg",
+                    "",
+                    "greenCampus.jpg",
                     true
                 ),
                 new HomeSlide(
                     "green city",
                     "A green city can influence millions of people to think and live sustainable.",
-                    "2.jpg",
+                    "greenCity.jpg",
                     false
                 ),
                 new HomeSlide(
                     "Sustainability",
                     "Sustainability is not a choice; it is the one &amp; only way of existence.",
-                    "3.jpg",
+                    "sustainability.jpg",
                     false
                 ),
                 new HomeSlide(
                     "efficient facade",
                     "Energy efficiency in a building starts with its envelop &amp; then other equipment.",
-                    "4.jpg",
+                    "efficientFacade.jpg",
                     false
                 ),
                 new HomeSlide(
                     "green interior",
                     "A green interior not only provide energy efficiency but also thermal, visual &amp; acoustic comfort along with other health benefits.",
-                    "5.jpg",
+                    "greenInterior.jpg",
                     false
                 ),
                 new HomeSlide(
                     "green technology",
-                    "Green development is also a platform of opportunities for innovation for any kind of resource security",
-                    "6.jpg",
+                    "Green development is also a platform of opportunities for innovation for any kind of resource security.",
+                    "greenTechnology.jpg",
                     false
                 ),
             ];
@@ -276,8 +276,8 @@ var viewController = (function () {
                         elements.navMenu.insertAdjacentHTML('beforeend', newMarkup);
                     });
                     break;
-                case "homeSlides": markup = '<div class="carousel-item %isActive%"><img class="home-slide-img" src="/assets/images/homeSlides/%imgUrl%" alt="%title%"><div class="carousel-caption d-none d-md-block"><p>%des%</p></div></div>';
-                    data.forEach(function (val) {
+                case "homeSlides": markup = '<div class="carousel-item %isActive%"><img class="home-slide-img" src="/assets/images/homeSlides/%imgUrl%" alt="%title%"><div class="carousel-caption d-none d-md-block"><h5 class="home-slide-text %transparent%">%des%</h5></div></div>';
+                    data.forEach(function (val, index) {
                         newMarkup = markup.replace("%imgUrl%", val.imgUrl);
                         newMarkup = newMarkup.replaceAll("%title%", val.title);
                         newMarkup = newMarkup.replace("%des%", val.des);
@@ -287,6 +287,12 @@ var viewController = (function () {
                         } else {
                             newMarkup = newMarkup.replace("%isActive%", '');
                         };
+
+                        if (index === 0) {
+                            newMarkup = newMarkup.replace("%transparent%", "bg-transparent");
+                        } else {
+                            newMarkup = newMarkup.replace("%transparent%", '');
+                        }
 
                         elements.homeSlides.insertAdjacentHTML('beforeend', newMarkup);
                     });
