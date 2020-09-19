@@ -53,21 +53,39 @@ var modelController = (function () {
         getHomeSlides: function () {
             var homeSlides = [
                 new HomeSlide(
-                    "Slide One",
+                    "green campus",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ad incidunt vel ducimus reiciendi minima provident hic, enim voluptatem aperiam dolorem voluptates voluptatibus illo suscipit vero amet ipsam eveniet sequi.",
-                    "wall4.jpg",
+                    "1.jpg",
                     true
                 ),
                 new HomeSlide(
-                    "Slide Two",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ad incidunt vel ducimus reiciendi minima provident hic, enim voluptatem aperiam dolorem voluptates voluptatibus illo suscipit vero amet ipsam eveniet sequi.",
-                    "wall4.jpg",
+                    "green city",
+                    "A green city can influence millions of people to think and live sustainable.",
+                    "2.jpg",
                     false
                 ),
                 new HomeSlide(
-                    "Slide Three",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ad incidunt vel ducimus reiciendi minima provident hic, enim voluptatem aperiam dolorem voluptates voluptatibus illo suscipit vero amet ipsam eveniet sequi.",
-                    "wall4.jpg",
+                    "Sustainability",
+                    "Sustainability is not a choice; it is the one &amp; only way of existence.",
+                    "3.jpg",
+                    false
+                ),
+                new HomeSlide(
+                    "efficient facade",
+                    "Energy efficiency in a building starts with its envelop &amp; then other equipment.",
+                    "4.jpg",
+                    false
+                ),
+                new HomeSlide(
+                    "green interior",
+                    "A green interior not only provide energy efficiency but also thermal, visual &amp; acoustic comfort along with other health benefits.",
+                    "5.jpg",
+                    false
+                ),
+                new HomeSlide(
+                    "green technology",
+                    "Green development is also a platform of opportunities for innovation for any kind of resource security",
+                    "6.jpg",
                     false
                 ),
             ];
@@ -258,7 +276,7 @@ var viewController = (function () {
                         elements.navMenu.insertAdjacentHTML('beforeend', newMarkup);
                     });
                     break;
-                case "homeSlides": markup = '<div class="carousel-item %isActive%"><img class="home-slide-img" src="/assets/images/%imgUrl%" alt="%title%"><div class="carousel-caption d-none d-md-block"><h1>%title%</h1><p>%des%</p></div></div>';
+                case "homeSlides": markup = '<div class="carousel-item %isActive%"><img class="home-slide-img" src="/assets/images/homeSlides/%imgUrl%" alt="%title%"><div class="carousel-caption d-none d-md-block"><h1>%title%</h1><p>%des%</p></div></div>';
                     data.forEach(function (val) {
                         newMarkup = markup.replace("%imgUrl%", val.imgUrl);
                         newMarkup = newMarkup.replaceAll("%title%", val.title);
