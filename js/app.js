@@ -276,7 +276,7 @@ var viewController = (function () {
                         elements.navMenu.insertAdjacentHTML('beforeend', newMarkup);
                     });
                     break;
-                case "homeSlides": markup = '<div class="carousel-item %isActive%"><img class="home-slide-img" src="/assets/images/homeSlides/%imgUrl%" alt="%title%"><div class="carousel-caption d-none d-md-block"><h1>%title%</h1><p>%des%</p></div></div>';
+                case "homeSlides": markup = '<div class="carousel-item %isActive%"><img class="home-slide-img" src="/assets/images/homeSlides/%imgUrl%" alt="%title%"><div class="carousel-caption d-none d-md-block"><p>%des%</p></div></div>';
                     data.forEach(function (val) {
                         newMarkup = markup.replace("%imgUrl%", val.imgUrl);
                         newMarkup = newMarkup.replaceAll("%title%", val.title);
