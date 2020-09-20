@@ -305,9 +305,12 @@ Service Start
 .service-card {
     position: relative;
     margin-bottom: 20px;
+    padding: 10px;
     transform-style: preserve-3d;
     transform: translateZ(-140px);
     transition: all ease .4s;
+    background-color: var(--white);
+    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.2);
 }
 
 .service-card:hover {
@@ -317,7 +320,6 @@ Service Start
 
 .service-card>div {
     transition: all ease .4s;
-    background-color: var(--white);
 }
 
 .service-card .right {
@@ -334,7 +336,6 @@ Service Start
 .service-card .front {
     transform: rotateY(0deg) translateZ(160px);
     border-radius: 6px;
-    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.2);
 }
 
 .service-card .card-img {
@@ -342,10 +343,7 @@ Service Start
     object-position: center;
     object-fit: contain;
     border-radius: 6px 6px 0px 0px;
-}
-
-.service-card .card-content {
-    padding: 10px 20px;
+    margin-bottom: 10px;
 }
 
 .service-card .card-content .service-title {
@@ -360,7 +358,7 @@ Service Start
 }
 
 .service-card .card-content .service-des {
-    padding: 10px 0;
+    padding: 15px;
     color: var(--textColor);
 }
 
