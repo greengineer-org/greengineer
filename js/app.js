@@ -31,10 +31,11 @@ var modelController = (function () {
         this.des = des;
     };
 
-    var Employ = function (id, imgUrl, name, edu, des) {
+    var Employ = function (id, imgUrl, name, empDeg, edu, des) {
         this.id = id;
         this.imgUrl = imgUrl;
         this.name = name;
+        this.empDeg = empDeg;
         this.edu = edu;
         this.des = des;
     };
@@ -202,63 +203,72 @@ var modelController = (function () {
                 new Employ(
                     "emp0",
                     "Ankit-Shukla.gif",
-                    "Ankit Shukla, <span class='emp-deg'>Director</span>",
-                    "M.Tech [Energy] | B.Tech [Mechanical], SGVU, Jaipur LEED© AP BD+C | IGBC© AP | GRIHA ©CP",
+                    "Ankit Shukla",
+                    "Director",
+                    "M.Tech [Energy] | B.Tech [Mechanical], SGVU, Jaipur | LEED© AP BD+C | IGBC© AP | GRIHA ©CP",
                     'Ankit is expert in the area of energy efficiency,energy auditing and green building design solution and certification. Prior to founding Greengineer Private Limited, Ankit worked with Kalpakrit Sustainable Environments Private Limited where he led the team to successful execution of many state of the art projects like IIT Gandhinagar, IIM Kozhikode, Tata Chemicals Limited Babrala, Headquarter of Sleepwell (Sheela Group) NOIDA and many more.</br> He has carried out research in the area of energy efficiency and thermal comfort of buildings and published research papers in international journals like IBPSA.He is a LEED Accredited Professional,IGBC Accredited Professional and GRIHA Certified Professional.He was also involved with the demonstration projects of BEE-UNDP-GEF for ECBC compliance in commercial buildings in various states of India.</br>He has worked on softwares like eQUEST, Design Buildier, Ecotect and EcoNirman. He is actively involved in building energy simulation, facilitation for LEED, IGBC and GRIHA projects, third party commissioning of building, research and education.</br> He was also involved in preparing and presenting the customized presentations to client to educate them about advantages of sustainable development through 3P model (People Planet and Profit), Best among various options of rating system for their project as per their needs and desires.'
                 ),
                 new Employ(
                     "emp1",
                     "Vikash-Sharma.png",
-                    "Vikash Sharma, <span class='emp-deg'>Sr. Associate: CFD &amp; FDS</span>",
+                    "Vikash Sharma",
+                    "Sr. Associate: CFD &amp; FDS",
                     "M.Tech [Energy], MNIT Jaipur | B.Tech [Mechanical], RTU, Jaipur",
                     "Vikas Sharma completed Bachelors in Mechanical Engineering from RTU, Jaipur in the year 2007. In the year 2010, he completed Masters in Energy Engineering from MNIT, Jaipur. He has more than 10 years of work experience in the field of computational fluid dynamics (CFD). He has given training of CFD to students and professionals of various organizations. Later, he started to work on the open source software like Open FOAM, FDS, etc. and entered the field of commercial consultancy of the CFD and FDS (Fire Dynamics Simulation) in the buildings."
                 ),
                 new Employ(
                     "emp2",
                     "Manish-Dadhich.png",
-                    "Manish Dadhich, <span class='emp-deg'>Sr. Associate: CFD &amp; FDS</span>",
+                    "Manish Dadhich",
+                    "Sr. Associate: CFD &amp; FDS",
                     "M.Tech [Thermal], RTU Jaipur | B.Tech [Mechanical], RTU, Jaipur",
                     "Manish Dadhich completed Bachelors in Mechanical Engineering and masters in Thermal engineering from the RTU, Kota in 2010 &amp; 2013. Currently, he is pursuing Ph.D. from RTU, Kota in the field of Flow boiling. He started his career in GROBDESIGN (P) LTD, Jaipur and was involved in the training programs for CFD analysis. Presently he deals with the academic projects as well as the projects related to CFD in the buildings using open-source software."
                 ),
                 new Employ(
                     "emp3",
                     "Abhijit-Singh.png",
-                    "Abhijit Singh, <span class='emp-deg'>Associate: Passive design and site management</span>",
+                    "Abhijit Singh",
+                    "Associate: Passive design and site management",
                     "B.Arch, IPS, Indore",
                     "Abhijit is an architect and has completed B.Arch. from IPS Indore in 2014. He is expert in providing green building design solution and on site implementation. At Greengeener Pvt. Ltd., his role is to provide the design inputs and visit site for ensuring actual sustainable site development and construction management."
                 ),
                 new Employ(
                     "emp4",
                     "Mukesh-Singh.png",
-                    "Mukesh Singh, <span class='emp-deg'>Director: Accounts &amp; Finance</span>",
+                    "Mukesh Singh",
+                    "Director: Accounts &amp; Finance",
                     "MA (Economics), Rajasthan University, Jaipur",
                     "Mukesh is heading accounts and finance function of Greengineer Pvt. Ltd and is one of the active directors of the company. He is expert in strategizing the financial aspect of business development. He was also involved in the project “Strengthening of the Local Government Bodies” undertaken by NITI Ayog Chair in collaboration with Rajasthan State Finance Commission, Jaipur. He also helps the team to give solutions on ecology and economy of the green building projects."
                 ),
                 new Employ(
                     "emp5",
                     "Neha-Bisht.jpg",
-                    "Neha Bisht, <span class='emp-deg'>Associate: Green Building Design</span>",
+                    "Neha Bisht",
+                    "Associate: Green Building Design",
                     "B.Arch, Jamia Millia Islamia, Delhi | IGBC© AP",
                     "Neha is an Architect and her expertise includes providing green building architectural design solutions, BIM Modeling and carrying out daylighting and artificial lighting analysis. She is IGBC Accredited Professional. She started her career from Kalpakrit Sustainable Environments Private limited, New Delhi and worked as a sustainable design assistant for 2 years."
                 ),
                 new Employ(
                     "emp6",
                     "Shubhangi-Goel.jpg",
-                    "Shubhangi Goel, <span class='emp-deg'>Associate: Green Building Design</span>",
+                    "Shubhangi Goel",
+                    "Associate: Green Building Design",
                     "B.Arch, Jamia Millia Islamia, Delhi | IGBC© AP",
                     "Shubhangi is an Architect and pursuing Masters in Architectural science with specializations in high performance buildings and Illumination designing. Her field of expertise includes building economics, intelligent building control systems, indoor environmental quality, sustainable construction technologies, water sensitive design, illumination designing which offers strong technical education in human visual perception, methods for quantifying light, lighting techniques and interaction of optics, psychology and physiology."
                 ),
                 new Employ(
                     "emp7",
                     "Gyanesh-Gupta.png",
-                    "Gyanesh Gupta, <span class='emp-deg'>Associate: Energy Management</span>",
+                    "Gyanesh Gupta",
+                    "Associate: Energy Management",
                     "M.Tech [Energy] | B.Tech [Mechanical], SGVU, Jaipur",
                     "Gyanesh is an Energy Engineer and pursuing Ph.D. in residential building benchmarking of India (Energy) from MNIT, Jaipur. He is expert in research, energy and environmental benchmarking and energy management."
                 ),
                 new Employ(
                     "emp8",
                     "Naveen-Sharma.jpg",
-                    "Naveen Sharma, <span class='emp-deg'>Associate: Energy Modelling &amp; HVAC</span>",
+                    "Naveen Sharma",
+                    "Associate: Energy Modelling &amp; HVAC",
                     "B.Tech [Mechanical], RTU, Jaipur",
                     "Naveen is a mechanical Engineer. He is expert in providing efficient HVAC solution for different kind of projects. He is also efficient in energy modeling work to propose various energy efficient measures for code and green building rating compliances."
                 ),
@@ -374,19 +384,21 @@ var viewController = (function () {
                         elements.services.insertAdjacentHTML('beforeend', newMarkup);
                     });
                     break;
-                case "employs": markup = '<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12"><div class="emp-card" id="%id%" data-toggle="modal" data-target="#emp-detail"><div class="emp-img"><img src="/assets/images/team/%imgUrl%" alt="%name%"></div><div class="card-highlight"><h6>%name%</h6><p class="edu">%edu%</p></div><p class="short-detail">%des%</p><span class="info-icon"><i class="fas fa-info"></i></span></div></div>';
+                case "employs": markup = '<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12"><div class="emp-card" id="%id%" data-toggle="modal" data-target="#emp-detail"><div class="emp-img"><img src="/assets/images/team/%imgUrl%" alt="%name%"></div><div class="card-highlight"><h6>%name%, <span class="emp-deg">%empDeg%</span></h6><p class="edu">%edu%</p></div><p class="short-detail">%des%</p><span class="info-icon"><i class="fas fa-info"></i></span></div></div>';
                     data.forEach(function (val) {
                         newMarkup = markup.replace("%imgUrl%", val.imgUrl);
                         newMarkup = newMarkup.replaceAll("%name%", val.name);
+                        newMarkup = newMarkup.replace("%empDeg%", val.empDeg);
                         newMarkup = newMarkup.replace("%edu%", val.edu);
                         newMarkup = newMarkup.replace("%des%", val.des);
                         newMarkup = newMarkup.replace("%id%", val.id);
                         elements.employs.insertAdjacentHTML('beforeend', newMarkup);
                     });
                     break;
-                case "empDetails": markup = '<div class="emp-img"><img src="./assets/images/team/%imgUrl%" alt="%name%"></div><h5>%name%</h5><h6>%edu%</h6><p>%des%</p>';
+                case "empDetails": markup = '<div class="emp-img"><img src="./assets/images/team/%imgUrl%" alt="%name%"></div><h5>%name%, <span class="emp-deg">%empDeg%</span></h5><h6>%edu%</h6><p>%des%</p>';
                     newMarkup = markup.replace("%imgUrl%", data.imgUrl);
                     newMarkup = newMarkup.replaceAll("%name%", data.name);
+                    newMarkup = newMarkup.replace("%empDeg%", data.empDeg);
                     newMarkup = newMarkup.replace("%edu%", data.edu);
                     newMarkup = newMarkup.replace("%des%", data.des);
                     elements.empDetails.innerHTML = newMarkup;

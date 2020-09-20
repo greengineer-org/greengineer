@@ -480,7 +480,6 @@ Team End
 
 .emp-details {
     padding: 10px;
-    /* min-height: 50vh; */
     max-height: 70vh;
     overflow-y: auto;
 }
