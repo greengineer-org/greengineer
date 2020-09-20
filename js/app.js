@@ -308,7 +308,7 @@ var viewController = (function () {
                     });
                     break;
                 case "homeSlides": markup = '<div class="carousel-item %isActive%"><img class="home-slide-img" src="/assets/images/homeSlides/%imgUrl%" alt="%title%"><div class="carousel-caption"><h5 class="home-slide-text">%des%</h5></div></div>';
-                    data.forEach(function (val, index) {
+                    data.forEach(function (val) {
                         newMarkup = markup.replace("%imgUrl%", val.imgUrl);
                         newMarkup = newMarkup.replaceAll("%title%", val.title);
                         newMarkup = newMarkup.replace("%des%", val.des);
