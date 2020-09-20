@@ -307,7 +307,7 @@ var viewController = (function () {
                         elements.navMenu.insertAdjacentHTML('beforeend', newMarkup);
                     });
                     break;
-                case "homeSlides": markup = '<div class="carousel-item %isActive%"><img class="home-slide-img" src="/assets/images/homeSlides/%imgUrl%" alt="%title%"><div class="carousel-caption"><h5 class="home-slide-text %transparent%">%des%</h5></div></div>';
+                case "homeSlides": markup = '<div class="carousel-item %isActive%"><img class="home-slide-img" src="/assets/images/homeSlides/%imgUrl%" alt="%title%"><div class="carousel-caption"><h5 class="home-slide-text">%des%</h5></div></div>';
                     data.forEach(function (val, index) {
                         newMarkup = markup.replace("%imgUrl%", val.imgUrl);
                         newMarkup = newMarkup.replaceAll("%title%", val.title);
@@ -318,13 +318,6 @@ var viewController = (function () {
                         } else {
                             newMarkup = newMarkup.replace("%isActive%", '');
                         };
-
-                        if (index === 0) {
-                            newMarkup = newMarkup.replace("%transparent%", "bg-transparent");
-                        } else {
-                            newMarkup = newMarkup.replace("%transparent%", '');
-                        }
-
                         elements.homeSlides.insertAdjacentHTML('beforeend', newMarkup);
                     });
                     break;

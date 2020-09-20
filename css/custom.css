@@ -37,10 +37,6 @@ button:focus {
     box-shadow: none !important;
 }
 
-.bg-transparent{
-    background-color: transparent !important;
-}
-
 /**
 Scroll Bar Start
 **/
