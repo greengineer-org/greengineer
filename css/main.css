@@ -348,6 +348,7 @@ Service Start
 
 .service-card .card-content .service-title {
     height: 58px;
+    margin: 0px;
 }
 
 .service-card .card-content .info-icon {
