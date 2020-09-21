@@ -133,6 +133,11 @@ Home Start
 .home-slide-text {
     color: var(--white);
     margin-bottom: 20px;
+    text-transform: lowercase;
+}
+
+.home-slide-text::first-letter {
+    text-transform: capitalize;
 }
 
 /**
@@ -680,6 +685,13 @@ Footer End
         padding: 45px;
         height: 400px;
         width: 400px;
+    }
+    .slide-detail .carousel-indicators li {
+        width: 44px;
+        height: 44px;
+    }
+    .slide-detail .carousel-indicators li i {
+        font-size: 18px;
     }
     .slide-detail .carousel-indicators li:nth-child(1) {
         top: 20px;
