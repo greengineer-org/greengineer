@@ -72,6 +72,7 @@ Section Common Start
 
 .section-header {
     margin-bottom: 70px;
+    text-align: center;
 }
 
 .section-header .section-icon {
