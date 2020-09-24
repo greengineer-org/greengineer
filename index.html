@@ -1,36 +1,784 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Greengineers</title>
+    <title>Greengineer - Energy Efficiency and Sustainability consultant</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/gif" href="/assets/images/logo/Greengineer-Logo-Thumbnail.png">
+
     <!-- Google Fonts Family Start -->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
+
     <link
-        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
     <!-- Google Fonts Family End -->
 
+    <!-- Bootstrap Start -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap End -->
+
+    <!-- Font Awesome Icon  -->
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- Font Awesome Icon  -->
+
     <!-- CSS Start -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/main.css">
     <!-- CSS End -->
 
 </head>
 
 <body>
-    <div class="frame">
-        <section class="section">
-            <div class="logoBox">
-                <img src="assets/images/logo.jpg" alt="Greengineers Logo" />
-            </div>
-            <p>We, the Greengineers are on a mission to help people build and manage their buildings competently and
-                comfortably by engineering the architecture and building services using suitable engines which create
-                the foundation for energy efficient, ecological, economical & safe building design, construction and
-                management.</p>
-            <h5>Coming Soon</h5>
-            <h6>For now contact us at</h6>
-            <h4>ankit@greengineer.org</h4>
+    <header class="app-header fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-md top-nav-bar">
+                <a class="navbar-brand" href="#home">
+                    <img src="assets/images/logo/Greengineer-Logo.png" alt="Greengineer">
+                </a>
 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sec-home">
+                                <i class="fas fa-home"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sec-about">
+                                <i class="fas fa-paper-plane"></i>About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sec-services">
+                                <i class="fas fa-layer-group"></i>Services
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sec-team">
+                                <i class="fas fa-users"></i>Team
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sec-contact">
+                                <i class="fas fa-comments"></i>Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="frame">
+        <section id="sec-home">
+            <div id="homeSlides" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#homeSlides" data-slide-to="0" class="active"></li>
+                    <li data-target="#homeSlides" data-slide-to="1" class=""></li>
+                    <li data-target="#homeSlides" data-slide-to="2" class=""></li>
+                    <li data-target="#homeSlides" data-slide-to="3" class=""></li>
+                    <li data-target="#homeSlides" data-slide-to="4" class=""></li>
+                    <li data-target="#homeSlides" data-slide-to="5" class=""></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="home-slide-img" src="/assets/images/homeSlides/greenCampus.jpg" alt="Green Campus">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="home-slide-img" src="/assets/images/homeSlides/greenCity.jpg" alt="Green City">
+                        <div class="carousel-caption">
+                            <h5 class="home-slide-text">
+                                A green city can influence millions of people to think and live
+                                sustainable.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="home-slide-img" src="/assets/images/homeSlides/sustainability.jpg"
+                            alt="sustainability">
+                        <div class="carousel-caption">
+                            <h5 class="home-slide-text">
+                                Sustainability is not a choice; it is the one &amp; only way of
+                                existence.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="home-slide-img" src="/assets/images/homeSlides/efficientFacade.jpg"
+                            alt="Efficient Facade">
+                        <div class="carousel-caption">
+                            <h5 class="home-slide-text">
+                                Energy efficiency in a building starts with its envelop &amp;
+                                then other equipment.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="home-slide-img" src="/assets/images/homeSlides/greenInterior.jpg"
+                            alt="Green Interior">
+                        <div class="carousel-caption">
+                            <h5 class="home-slide-text">
+                                A green interior not only provides energy efficiency but also thermal, visual &amp;
+                                acoustic comfort along with other health benefits.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="home-slide-img" src="/assets/images/homeSlides/greenTechnology.jpg"
+                            alt="Green Technology">
+                        <div class="carousel-caption">
+                            <h5 class="home-slide-text">
+                                Green development is also a platform of opportunities for innovation for any kind of
+                                resource security.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#homeSlides" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#homeSlides" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-icon">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    <h2>Welcome to Greengineer</h2>
+                    <p>Greengineering is a sustainable way of engineering the architecture by using suitable engines for
+                        energy efficient, ecological and economical compliances to protect our environment.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-silver-bg" id="sec-about">
+            <div class="parallax"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="about-card">
+                            <i class="fas fa-lightbulb icon"></i>
+                            <h5>Why us ?</h5>
+                            <p>Greengineer provides hassle free and timely project delivery with quality of
+                                international standards at best cost.</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-rocket icon"></i>
+                            <h5>Mission</h5>
+                            <p>We, the <strong><em>Greengineers</em></strong> are on a mission to help people
+                                <strong><em> build and manage </em></strong> their buildings competently and comfortably
+                                by <strong><em> engineering the architecture </em></strong> and building services using
+                                suitable <strong><em>engines</em></strong> which create a foundation for
+                                <strong><em>energy efficient, ecological, economical &amp; safe</em></strong> building
+                                design, construction and management.</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-glasses icon"></i>
+                            <h5>Vision</h5>
+                            <p>To <strong><em> engineer and run a system </em></strong> in which energy efficiency &amp;
+                                green compliance in buildings are creative, innovative, educative, economic and
+                                simplified.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="slide-detail-about">
+                            <h5 class="text-center">REASONS TO CHOOSE US</h5>
+                            <div id="about-slide-detail" class="carousel slide slide-detail section-silver-bg"
+                                data-ride="carousel" data-interval="3000">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#about-slide-detail" data-slide-to="0" class="active">
+                                        <i class="fas fa-clipboard-check"></i>
+                                    </li>
+                                    <li data-target="#about-slide-detail" data-slide-to="1" class="">
+                                        <i class="fas fa-user-shield"></i>
+                                    </li>
+                                    <li data-target="#about-slide-detail" data-slide-to="2" class="">
+                                        <i class="fas fa-hand-holding-usd"></i>
+                                    </li>
+                                    <li data-target="#about-slide-detail" data-slide-to="3" class="">
+                                        <i class="far fa-file-alt"></i>
+                                    </li>
+                                    <li data-target="#about-slide-detail" data-slide-to="4" class="">
+                                        <i class="fas fa-user-tie"></i>
+                                    </li>
+                                    <li data-target="#about-slide-detail" data-slide-to="5" class="">
+                                        <i class="fas fa-cogs"></i>
+                                    </li>
+                                </ol>
+
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="slide-content">
+                                            <i class="fas fa-clipboard-check"></i>
+                                            <h6>Our priority</h6>
+                                            <p>Our first priority is to <strong><em>solve the problem </em></strong> of
+                                                the project and work towards fulfilling the needs and desires of the
+                                                client.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="slide-content">
+                                            <i class="fas fa-user-shield"></i>
+                                            <h6>Our Expertise</h6>
+                                            <p>We are a team of <strong><em> green engineers and architects
+                                                    </em></strong> with adequate experience of handling national &amp;
+                                                international projects.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="slide-content">
+                                            <i class="fas fa-hand-holding-usd"></i>
+                                            <h6>Value for money</h6>
+                                            <p>We use our skill, knowledge &amp; imagination to see <strong><em>how much
+                                                        more value</em></strong> we can give/ add for every ₹ spent.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="slide-content">
+                                            <i class="far fa-file-alt"></i>
+                                            <h6>Work Quality</h6>
+                                            <p>Guaranteed quality <strong><em>work on time</em></strong> at best cost.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="slide-content">
+                                            <i class="fas fa-user-tie"></i>
+                                            <h6>Client satisfaction</h6>
+                                            <p>Detailed Presentation of accomplished work for <strong><em>full clarity
+                                                        and satisfaction</em></strong> of client.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="slide-content">
+                                            <i class="fas fa-cogs"></i>
+                                            <h6>Execution Process</h6>
+                                            <p>Streamlined process of document collection and client coordination for
+                                                <strong><em>hassle free project delivery.</em></strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="sec-services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </span>
+                    <h2>services</h2>
+                    <p>At Greengineer, we don’t push our ideas to the customers, we generate ideas and solutions after
+                        listening to the customer’s needs, problems and desires. We believe in adding more and more
+                        values to the customer and giving an experience where the customer becomes over greatest
+                        advocates.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-card">
+                            <div class="front">
+                                <img class="card-img" src="/assets/images/service/Energy-Simulation.PNG"
+                                    alt="Energy-Simulation">
+                                <div class="card-content">
+                                    <h6 class="service-title">
+                                        Building energy simulation &amp; lighting analysis for design improvement &amp;
+                                        validation
+                                    </h6>
+                                    <div class="info-icon">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="card-content">
+                                    <p class="service-des">
+                                        Carrying out simulations of concept design for energy and daylight analysis
+                                        provide a clear and authentic picture of building performance. Alteration of
+                                        design as per the energy efficiency &amp; daylight optimization measures at the
+                                        concept planning
+                                        stage are most economical. At Greengineer, we facilitate the project team to
+                                        select the most
+                                        relevant, desirable and economic measures among hundreds of options which are
+                                        specific to
+                                        the project.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-card">
+                            <div class="front">
+                                <img class="card-img" src="/assets/images/service/Compliance-Modelling.jpg"
+                                    alt=" Compliance-Modelling">
+                                <div class="card-content">
+                                    <h6 class="service-title">Compliance modeling for ECBC, ASHRAE, LEED, IGBC, GRIHA,
+                                        EC</h6>
+                                    <div class="info-icon">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="card-content">
+                                    <p class="service-des">
+                                        Compliance to the various energy codes are getting mandatory in various parts of
+                                        India and other part of world. All of the building rating systems also refer one
+                                        of energy codes. At Greengineer, we provide the detailed compliance report for
+                                        ECBC and ASHRAE using simulation tools. The report generated by our experts can
+                                        be used for showing compliance for ECBC, ASHRAE, LEED, IGBC, GRIHA and
+                                        Environmental Clearances.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-card">
+                            <div class="front">
+                                <img class="card-img" src="/assets/images/service/ASHRAE-Level-Audit.jpg"
+                                    alt="ASHRAE-Level-Audit">
+                                <div class="card-content">
+                                    <h6 class="service-title">ASHRAE level 1, 2 &amp; 3 energy audits, green audits
+                                        &amp; third party commissioning</h6>
+                                    <div class="info-icon"><i class="fas fa-arrow-circle-right"></i></div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="card-content">
+                                    <p class="service-des">
+                                        Energy and green audits are the process to get your building’s health checked.
+                                        This ensures the optimal use of energy, water and material while maintaining the
+                                        thermal comfort. This also helps for a better operation &amp; maintenance and
+                                        measurement and verification strategies to enhance the equipment’s life and
+                                        operating costs. Commissioning of Electro-Mechanical equipment ensures that the
+                                        difference between design &amp; actual implementation is minimized.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-card">
+                            <div class="front">
+                                <img class="card-img" src="/assets/images/service/Computational-Fluid-Dynamics.JPG"
+                                    alt="Computational-Fluid-Dynamics">
+                                <div class="card-content">
+                                    <h6 class="service-title">Computational Fluid Dynamics (CFD analysis) and Fire
+                                        Dynamics Simulation (FDS)
+                                    </h6>
+                                    <div class="info-icon"><i class="fas fa-arrow-circle-right"></i></div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="card-content">
+                                    <p class="service-des">
+                                        CFD analysis is essential to get the wind flow pattern in the concept plan which
+                                        will further help in positioning and orienting the different building blocks,
+                                        water bodies,
+                                        plantation to avail the maximum microclimate benefits. It also helps in better
+                                        placement and
+                                        sizing of air conditioning and ventilation systems. FDS is a tool to understand
+                                        the heat and
+                                        smoke transport pattern in a building in case a fire occurs. This willhelp to
+                                        finalize and
+                                        validate the evacuation plan.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-card">
+                            <div class="front"><img class="card-img"
+                                    src="/assets/images/service/Research-And-Policy.jpg" alt="Research-And-Policy.jpg">
+                                <div class="card-content">
+                                    <h6 class="service-title">Research &amp; policy work</h6>
+                                    <div class="info-icon"><i class="fas fa-arrow-circle-right"></i></div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="card-content">
+                                    <p class="service-des">
+                                        Continuous research and innovation is the way of progress. Our expertise and
+                                        interest for research and policy work are in the field of green buildings,
+                                        sustainable urban
+                                        development, thermal comfort, energy efficiency, energy conservation &amp;
+                                        management, water
+                                        conservation &amp; harvesting, ecology, socio-economy, carbon neutrality,
+                                        microclimate, and
+                                        climate change etc.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-card">
+                            <div class="front"><img class="card-img" src="/assets/images/service/Tool-Development.jpg"
+                                    alt="Tool-Development.jpg">
+                                <div class="card-content">
+                                    <h6 class="service-title">
+                                        Tool development for different green compliances
+                                    </h6>
+                                    <div class="info-icon"><i class="fas fa-arrow-circle-right"></i></div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="card-content">
+                                    <p class="service-des">
+                                        For any calculation or analysis work, if it is repetitive in nature, even an
+                                        excel based formulated tool can save two third of the time. This will help
+                                        reduce the overall project execution time and cost. For very complex
+                                        calculations, the numbers are even better. Development and use of tools also
+                                        helps the new person execute the task with little or no training.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-card">
+                            <div class="front">
+                                <img class="card-img" src="/assets/images/service/Training.jpg" alt="Training">
+                                <div class="card-content">
+                                    <h6 class="service-title">
+                                        Training of energy simulation &amp; code compliances
+                                    </h6>
+                                    <div class="info-icon"><i class="fas fa-arrow-circle-right"></i></div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="card-content">
+                                    <p class="service-des">
+                                        Sharing the knowledge is key to progress of humans and our society. We provide
+                                        trainings to the students &amp; building professionals on process of energy
+                                        modeling of buildings, evaluating the best energy efficient measures and how to
+                                        achieve code compliance like ECBC and ASHRAE. The different educational videos
+                                        and posters are also available in our social networking pages.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-card">
+                            <div class="front"><img class="card-img"
+                                    src="/assets/images/service/Green-Building-Certification.jpg"
+                                    alt="Green-Building-Certification">
+                                <div class="card-content">
+                                    <h6 class="service-title">Green Building certification &amp; compliance for
+                                        different rating systems</h6>
+                                    <div class="info-icon"><i class="fas fa-arrow-circle-right"></i></div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="card-content">
+                                    <p class="service-des">
+                                        The green building rating systems like LEED, IGBC, GRIHA, WELL, BEE, ASSOCHAM,
+                                        PEER, EDGE, SITE etc. cover some or many sustainability and wellbeing parameters
+                                        for a building development. </br></br>&rarr;&ensp; Site &amp; construction
+                                        compliance </br>&rarr;&ensp; Indoor air quality management </br>&rarr;&ensp;
+                                        Energy management &amp; compliance </br>&rarr;&ensp; Waste management
+                                        </br>&rarr;&ensp; Material selection and purchase policy </br>&rarr;&ensp; Green
+                                        housekeeping </br>&rarr;&ensp; Low carbon mobility
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="certs" id="cert">
+            <div class="parallax"></div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <img class="certs-img rectangle" src="/assets/images/certs/IGBC-AP.jpg" alt="IGBC AP">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <img class="certs-img square" src="/assets/images/certs/LEED-BD+C.jpg" alt="LEED-BD+C">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <img class="certs-img square" src="/assets/images/certs/GRIHA.jpg" alt="GRIHA">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-silver-bg" id="sec-team">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-icon">
+                        <i class="fas fa-users"></i>
+                    </span>
+                    <h2>team</h2>
+                    <p>Great achievements in a business require a great team. We the Greengineer believe in team
+                        work and mutual growth for all.</p>
+                </div>
+
+                <div class="row" rel="js-employs">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="emp-card" data-toggle="modal" data-target="#emp0">
+                            <div class="emp-img">
+                                <img src="/assets/images/team/Ankit-Shukla.gif" alt="Ankit Shukla">
+                            </div>
+                            <div class="card-highlight">
+                                <h6>Ankit Shukla, <span class="emp-deg">Director</span></h6>
+                                <p class="edu">
+                                    M.Tech [Energy] | B.Tech [Mechanical], SGVU, Jaipur | LEED<sup><b>©</b></sup> AP
+                                    BD+C |
+                                    IGBC<sup><b>©</b></sup> AP |
+                                    GRIHA<sup><b>©</b></sup> CP
+                                </p>
+                            </div>
+                            <p class="short-detail">
+                                Ankit is expert in the area of energy efficiency,energy auditing and green building
+                                design solution and certification.
+                            </p>
+                            <span class="info-icon"><i class="fas fa-info"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="emp-card" data-toggle="modal" data-target="#emp1">
+                            <div class="emp-img">
+                                <img src="/assets/images/team/Vikash-Sharma.png" alt="Vikash Sharma">
+                            </div>
+                            <div class="card-highlight">
+                                <h6>Vikash Sharma, <span class="emp-deg">Sr. Associate: CFD &amp; FDS</span></h6>
+                                <p class="edu">
+                                    M.Tech [Energy], MNIT Jaipur | B.Tech [Mechanical], RTU, Jaipur
+                                </p>
+                            </div>
+                            <p class="short-detail">Vikas Sharma completed Bachelors in Mechanical Engineering from RTU,
+                                Jaipur in the year 2007.</p>
+                            <span class="info-icon"><i class="fas fa-info"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="emp-card" data-toggle="modal" data-target="#emp2">
+                            <div class="emp-img">
+                                <img src="/assets/images/team/Manish-Dadhich.png" alt="Manish Dadhich">
+                            </div>
+                            <div class="card-highlight">
+                                <h6>Manish Dadhich, <span class="emp-deg">Sr. Associate: CFD &amp; FDS</span></h6>
+                                <p class="edu">
+                                    M.Tech [Thermal], RTU Jaipur | B.Tech [Mechanical], RTU, Jaipur
+                                </p>
+                            </div>
+                            <p class="short-detail">Manish Dadhich completed Bachelors in Mechanical Engineering and
+                                masters in Thermal engineering from the RTU, Kota in 2010 &amp; 2013.
+                            </p>
+                            <span class="info-icon"><i class="fas fa-info"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="emp-card" data-toggle="modal" data-target="#emp3">
+                            <div class="emp-img">
+                                <img src="/assets/images/team/Abhijit-Singh.png" alt="Abhijit Singh">
+                            </div>
+                            <div class="card-highlight">
+                                <h6>Abhijit Singh, <span class="emp-deg">Associate: Passive design and site
+                                        management</span></h6>
+                                <p class="edu">B.Arch, IPS, Indore</p>
+                            </div>
+                            <p class="short-detail">Abhijit is an architect and has completed B.Arch. from IPS Indore in
+                                2014.</p>
+                            <span class="info-icon"><i class="fas fa-info"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="emp-card" data-toggle="modal" data-target="#emp4">
+                            <div class="emp-img">
+                                <img src="/assets/images/team/Mukesh-Singh.png" alt="Mukesh Singh">
+                            </div>
+                            <div class="card-highlight">
+                                <h6>Mukesh Singh, <span class="emp-deg">Director: Accounts &amp; Finance</span></h6>
+                                <p class="edu">MA (Economics), Rajasthan University, Jaipur</p>
+                            </div>
+                            <p class="short-detail">Mukesh is heading accounts and finance function of Greengineer Pvt.
+                                Ltd and is one of the active directors of the company.</p>
+                            <span class="info-icon"><i class="fas fa-info"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="emp-card" data-toggle="modal" data-target="#emp5">
+                            <div class="emp-img"><img src="/assets/images/team/Neha-Bisht.jpg" alt="Neha Bisht"></div>
+                            <div class="card-highlight">
+                                <h6>Neha Bisht, <span class="emp-deg">Associate: Green Building Design</span></h6>
+                                <p class="edu">
+                                    B.Arch, Jamia Millia Islamia, Delhi | IGBC<sup><b>©</b></sup> AP
+                                </p>
+                            </div>
+                            <p class="short-detail">Neha is an Architect and her expertise includes providing green
+                                building architectural design solutions, BIM Modeling and carrying out daylighting and
+                                artificial lighting analysis.</p>
+                            <span class="info-icon"><i class="fas fa-info"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="emp-card" data-toggle="modal" data-target="#emp6">
+                            <div class="emp-img">
+                                <img src="/assets/images/team/Shubhangi-Goel.jpg" alt="Shubhangi Goel">
+                            </div>
+                            <div class="card-highlight">
+                                <h6>Shubhangi Goel, <span class="emp-deg">Associate: Green Building Design</span></h6>
+                                <p class="edu">B.Arch, Jamia Millia Islamia, Delhi | IGBC<sup><b>©</b></sup> AP</p>
+                            </div>
+                            <p class="short-detail">Shubhangi is an Architect and pursuing Masters in Architectural
+                                science with specializations in high performance buildings and Illumination designing.
+                            </p>
+                            <span class="info-icon"><i class="fas fa-info"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="emp-card" data-toggle="modal" data-target="#emp7">
+                            <div class="emp-img">
+                                <img src="/assets/images/team/Gyanesh-Gupta.png" alt="Gyanesh Gupta">
+                            </div>
+                            <div class="card-highlight">
+                                <h6>Gyanesh Gupta, <span class="emp-deg">Associate: Energy Management</span></h6>
+                                <p class="edu">M.Tech [Energy] | B.Tech [Mechanical], SGVU, Jaipur</p>
+                            </div>
+                            <p class="short-detail">Gyanesh is an Energy Engineer and pursuing Ph.D. in residential
+                                building benchmarking of India (Energy) from MNIT, Jaipur.</p>
+                            <span class="info-icon"><i class="fas fa-info"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="emp-card" data-toggle="modal" data-target="#emp8">
+                            <div class="emp-img">
+                                <img src="/assets/images/team/Naveen-Sharma.jpg" alt="Naveen Sharma">
+                            </div>
+                            <div class="card-highlight">
+                                <h6>Naveen Sharma, <span class="emp-deg">Associate: Energy Modelling &amp; HVAC</span>
+                                </h6>
+                                <p class="edu">B.Tech [Mechanical], RTU, Jaipur</p>
+                            </div>
+                            <p class="short-detail">Naveen is a Mechanical Engineer. He is expert in providing efficient
+                                HVAC solution for different kind of projects.</p>
+                            <span class="info-icon"><i class="fas fa-info"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-dark-bg" id="sec-contact">
+            <div class="parallax"></div>
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-icon">
+                        <i class="fas fa-comments"></i>
+                    </span>
+                    <h2>contact</h2>
+                    <p>Reach us at</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="contact-card">
+                            <i class="fas fa-phone"></i>
+                            <h5>call</h5>
+                            <p>+91 8471034798</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <h5>mail</h5>
+                            <p>ankit@greengineer.org</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="contact-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h5>address</h5>
+                            <p><strong>Registered office :</strong>
+                                Pune: J-202 Konark Orchid, Wagholi,
+                                Pune, Maharashtra – 412207
+                                India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <h6><i class="fas fa-map-marker-alt"></i> Regional Office</h6>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <p><strong>Jaipur :</strong> 2nd Floor, Dev Tower, Near kumbha Marg
+                                Circle, (Tonk Road), Pratap Nagar, Jaipur, Rajastha,
+                                India – 302033</p>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <p><strong>Delhi (NCR) :</strong> DP 77, Maurya Enclave,
+                                Pitampura, New Delhi, India – 110034
+                            </p>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <p><strong>Rewa :</strong> 15/2481, Gulab Nagar,
+                                Rewa, Madhya Pradesh, India - 486001</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <h6><i class="fas fa-share"></i> follow us</h6>
+                    <a href="https://www.linkedin.com/company/67505862/admin/" target="blank" tooltip="Linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/Greengineer20" target="blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCzQY6S708m6gfNlV6Gz-afA?view_as=subscriber"
+                        target="blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
         </section>
     </div>
 
@@ -38,6 +786,259 @@
         <p>&copy; 2020. All Rights Reserved</p>
     </footer>
 
+    <!-- Modal -->
+    <div class="modal fade" id="emp0" tabindex="-1" role="dialog" aria-labelledby="emp-detailTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="emp-details" rel="js-emp-details">
+                        <div class="emp-img">
+                            <img src="/assets/images/team/Ankit-Shukla.gif" alt="Ankit Shukla">
+                        </div>
+                        <h5>Ankit Shukla, <span class="emp-deg">Director</span></h5>
+                        <h6>M.Tech [Energy] | B.Tech [Mechanical], SGVU, Jaipur | LEED<sup><b>©</b></sup> AP BD+C |
+                            IGBC<sup><b>©</b></sup> AP | GRIHA<sup><b>©</b></sup>
+                            CP
+                        </h6>
+                        <p>
+                            Ankit is expert in the area of energy efficiency,energy auditing and green building design
+                            solution and certification. Prior to founding Greengineer Private Limited, Ankit worked with
+                            Kalpakrit Sustainable Environments Private Limited where he led the team to successful
+                            execution of many state of the art projects like IIT Gandhinagar, IIM Kozhikode, Tata
+                            Chemicals Limited Babrala, Headquarter of Sleepwell (Sheela Group) NOIDA and many more.</br>
+                            He has carried out research in the area of energy efficiency and thermal comfort of
+                            buildings and published research papers in international journals like IBPSA.He is a LEED
+                            Accredited Professional,IGBC Accredited Professional and GRIHA Certified Professional.He was
+                            also involved with the demonstration projects of BEE-UNDP-GEF for ECBC compliance in
+                            commercial buildings in various states of India.</br>He has worked on softwares like eQUEST,
+                            Design Buildier, Ecotect and EcoNirman. He is actively involved in building energy
+                            simulation, facilitation for LEED, IGBC and GRIHA projects, third party commissioning of
+                            building, research and education.</br> He was also involved in preparing and presenting the
+                            customized presentations to client to educate them about advantages of sustainable
+                            development through 3P model (People Planet and Profit), Best among various options of
+                            rating system for their project as per their needs and desires.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="emp1" tabindex="-1" role="dialog" aria-labelledby="emp-detailTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="emp-details" rel="js-emp-details">
+                        <div class="emp-img">
+                            <img src="/assets/images/team/Vikash-Sharma.png" alt="Vikash Sharma">
+                        </div>
+                        <h5>Vikash Sharma, <span class="emp-deg">Sr. Associate: CFD &amp; FDS</span></h5>
+                        <h6>M.Tech [Energy], MNIT Jaipur | B.Tech [Mechanical], RTU, Jaipur</h6>
+                        <p>Vikas Sharma completed Bachelors in Mechanical Engineering from RTU, Jaipur in the year 2007.
+                            In the year 2010, he completed Masters in Energy Engineering from MNIT, Jaipur. He has more
+                            than 10 years of work experience in the field of computational fluid dynamics (CFD). He has
+                            given training of CFD to students and professionals of various organizations. Later, he
+                            started to work on the open source software like Open FOAM, FDS, etc. and entered the field
+                            of commercial consultancy of the CFD and FDS (Fire Dynamics Simulation) in the buildings.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="emp2" tabindex="-1" role="dialog" aria-labelledby="emp-detailTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="emp-details" rel="js-emp-details">
+                        <div class="emp-img">
+                            <img src="/assets/images/team/Manish-Dadhich.png" alt="Manish Dadhich">
+                        </div>
+                        <h5>Manish Dadhich, <span class="emp-deg">Sr. Associate: CFD &amp; FDS</span></h5>
+                        <h6>M.Tech [Thermal], RTU Jaipur | B.Tech [Mechanical], RTU, Jaipur</h6>
+                        <p>Manish Dadhich completed Bachelors in Mechanical Engineering and masters in Thermal
+                            engineering from the RTU, Kota in 2010 &amp; 2013. Currently, he is pursuing Ph.D. from RTU,
+                            Kota in the field of Flow boiling. He started his career in GROBDESIGN (P) LTD, Jaipur and
+                            was involved in the training programs for CFD analysis. Presently he deals with the academic
+                            projects as well as the projects related to CFD in the buildings using open-source software.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="emp3" tabindex="-1" role="dialog" aria-labelledby="emp-detailTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="emp-details" rel="js-emp-details">
+                        <div class="emp-img">
+                            <img src="/assets/images/team/Abhijit-Singh.png" alt="Abhijit Singh">
+                        </div>
+                        <h5>Abhijit Singh, <span class="emp-deg">Associate: Passive design and site management</span>
+                        </h5>
+                        <h6>B.Arch, IPS, Indore</h6>
+                        <p>Abhijit is an architect and has completed B.Arch. from IPS Indore in 2014. He is expert in
+                            providing green building design solution and on site implementation. At Greengeener Pvt.
+                            Ltd., his role is to provide the design inputs and visit site for ensuring actual
+                            sustainable site development and construction management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="emp4" tabindex="-1" role="dialog" aria-labelledby="emp-detailTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="emp-details" rel="js-emp-details">
+                        <div class="emp-img">
+                            <img src="/assets/images/team/Mukesh-Singh.png" alt="Mukesh Singh">
+                        </div>
+                        <h5>Mukesh Singh, <span class="emp-deg">Director: Accounts &amp; Finance</span></h5>
+                        <h6>MA (Economics), Rajasthan University, Jaipur</h6>
+                        <p>Mukesh is heading accounts and finance function of Greengineer Pvt. Ltd and is one of the
+                            active directors of the company. He is expert in strategizing the financial aspect of
+                            business development. He was also involved in the project “Strengthening of the Local
+                            Government Bodies” undertaken by NITI Ayog Chair in collaboration with Rajasthan State
+                            Finance Commission, Jaipur. He also helps the team to give solutions on ecology and economy
+                            of the green building projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="emp5" tabindex="-1" role="dialog" aria-labelledby="emp-detailTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="emp-details" rel="js-emp-details">
+                        <div class="emp-img">
+                            <img src="/assets/images/team/Neha-Bisht.jpg" alt="Neha Bisht">
+                        </div>
+                        <h5>Neha Bisht, <span class="emp-deg">Associate: Green Building Design</span></h5>
+                        <h6>B.Arch, Jamia Millia Islamia, Delhi | IGBC<sup><b>©</b></sup> AP</h6>
+                        <p>Neha is an Architect and her expertise includes providing green building architectural design
+                            solutions, BIM Modeling and carrying out daylighting and artificial lighting analysis. She
+                            is IGBC Accredited Professional. She started her career from Kalpakrit Sustainable
+                            Environments Private limited, New Delhi and worked as a sustainable design assistant for 2
+                            years.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="emp6" tabindex="-1" role="dialog" aria-labelledby="emp-detailTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="emp-details" rel="js-emp-details">
+                        <div class="emp-img">
+                            <img src="/assets/images/team/Shubhangi-Goel.jpg" alt="Shubhangi Goel">
+                        </div>
+                        <h5>Shubhangi Goel, <span class="emp-deg">Associate: Green Building Design</span></h5>
+                        <h6>B.Arch, Jamia Millia Islamia, Delhi | IGBC<sup><b>©</b></sup> AP</h6>
+                        <p>Shubhangi is an Architect and pursuing Masters in Architectural science with specializations
+                            in high performance buildings and Illumination designing. Her field of expertise includes
+                            building economics, intelligent building control systems, indoor environmental quality,
+                            sustainable construction technologies, water sensitive design, illumination designing which
+                            offers strong technical education in human visual perception, methods for quantifying light,
+                            lighting techniques and interaction of optics, psychology and physiology.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="emp7" tabindex="-1" role="dialog" aria-labelledby="emp-detailTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="emp-details" rel="js-emp-details">
+                        <div class="emp-img">
+                            <img src="/assets/images/team/Gyanesh-Gupta.png" alt="Gyanesh Gupta">
+                        </div>
+                        <h5>Gyanesh Gupta, <span class="emp-deg">Associate: Energy Management</span></h5>
+                        <h6>M.Tech [Energy] | B.Tech [Mechanical], SGVU, Jaipur</h6>
+                        <p>Gyanesh is an Energy Engineer and pursuing Ph.D. in residential building benchmarking of
+                            India (Energy) from MNIT, Jaipur. He is expert in research, energy and environmental
+                            benchmarking and energy management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="emp8" tabindex="-1" role="dialog" aria-labelledby="emp-detailTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="emp-details" rel="js-emp-details">
+                        <div class="emp-img">
+                            <img src="/assets/images/team/Naveen-Sharma.jpg" alt="Naveen Sharma">
+                        </div>
+                        <h5>Naveen Sharma, <span class="emp-deg">Associate: Energy Modelling &amp; HVAC</span></h5>
+                        <h6>B.Tech [Mechanical], RTU, Jaipur</h6>
+                        <p>Naveen is a Mechanical Engineer. He is expert in providing efficient HVAC solution for
+                            different kind of projects. He is also efficient in energy modeling work to propose various
+                            energy efficient measures for code and green building rating compliances.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
