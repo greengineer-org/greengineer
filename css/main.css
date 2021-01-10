@@ -108,12 +108,12 @@ Section Common End
 Home Start
 **/
 
-#sec-home .section-header {
+#home .section-header {
     margin: 0;
     padding: 30px 0px 60px 0px;
 }
 
-#sec-home .carousel-item::after {
+#home .carousel-item::after {
     content: "";
     position: absolute;
     left: 0;
@@ -405,7 +405,7 @@ Certs End
 Team End
 **/
 
-#sec-team .section-header {
+#team .section-header {
     margin-bottom: 140px;
 }
 
@@ -545,11 +545,11 @@ Team End
 Contact Start
 **/
 
-#sec-contact {
+#contact {
     text-align: center;
 }
 
-#sec-contact, #sec-contact .section-icon, #sec-contact p, #sec-contact h2, #sec-contact h5, #sec-contact h6 {
+#contact, #contact .section-icon, #contact p, #contact h2, #contact h5, #contact h6 {
     color: var(--white);
 }
 
@@ -614,7 +614,7 @@ Parallax Start
     background-size: contain;
 }
 
-#sec-about .parallax {
+#about .parallax {
     background-image: url("/assets/images/background/mass-icons.png");
 }
 
@@ -622,11 +622,11 @@ Parallax Start
     background-image: url("/assets/images/background/certs.jpg");
 }
 
-#sec-contact .parallax {
+#contact .parallax {
     background-image: url("/assets/images/background/map.jpg");
 }
 
-#cert .parallax::before, #sec-contact .parallax::before {
+#cert .parallax::before, #contact .parallax::before {
     content: "";
     position: absolute;
     top: 0;
